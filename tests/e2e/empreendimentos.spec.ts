@@ -1,5 +1,4 @@
-import { expect, test } from '@playwright/test';
-import { empreendimentoLinks } from '../data/empreendimentos.data';
+import { test } from '../fixtures/pages.fixture';
 
 test.beforeEach(async ({}, testInfo) => {
   test.skip(
@@ -8,25 +7,15 @@ test.beforeEach(async ({}, testInfo) => {
   );
 });
 
-test('deve listar os empreendimentos da Libri', async ({ page }) => {
-  await page.goto('/empreendimentos/');
+test('deve listar os empreendimentos da Libri', async ({ empreendimentosPage }) => {
+  await empreendimentosPage.goto();
 
-  await expect(page).toHaveTitle(/Empreendimentos.*Libri/i);
-  await expect(page.getByRole('heading', { name: /^Empreendimentos$/i }).first()).toBeVisible();
-
-  for (const empreendimento of empreendimentoLinks) {
-    await expect(page.getByRole('heading', { name: empreendimento.name }).first()).toBeVisible();
-    expect(await page.locator(`a[href$="${empreendimento.href}"]`).count()).toBeGreaterThan(0);
-  }
+  await empreendimentosPage.expectLoaded();
+  await empreendimentosPage.expectEmpreendimentosList();
 });
 
-test('deve manter os cards de empreendimentos navegaveis', async ({ page }) => {
-  await page.goto('/empreendimentos/');
+test('deve manter os cards de empreendimentos navegaveis', async ({ empreendimentosPage }) => {
+  await empreendimentosPage.goto();
 
-  for (const { href } of empreendimentoLinks) {
-    await expect(page.locator(`a[href$="${href}"]`).first()).toHaveAttribute(
-      'href',
-      new RegExp(`${href}$`),
-    );
-  }
+  await empreendimentosPage.expectCardsNavigable();
 });

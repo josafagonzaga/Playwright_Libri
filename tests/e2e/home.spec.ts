@@ -1,10 +1,7 @@
-import { expect, test } from '@playwright/test';
+import { test } from '../fixtures/pages.fixture';
 
-test('deve abrir a pagina inicial da Libri', async ({ page }) => {
-  await page.goto('/');
+test('deve abrir a pagina inicial da Libri', async ({ homePage }) => {
+  await homePage.goto();
 
-  await expect(page).toHaveTitle(/Libri/);
-  await expect(
-    page.getByRole('heading', { name: /Equil[ií]brio em todos os aspectos/i }),
-  ).toBeVisible();
+  await homePage.expectLoaded();
 });

@@ -7,6 +7,7 @@
     "test": "playwright test",
     "test:ci": "playwright test",
     "test:access": "playwright test tests/e2e/acessos.spec.ts",
+    "test:broker": "playwright test tests/e2e/corretor.spec.ts",
     "test:contact": "playwright test tests/e2e/contato.spec.ts",
     "test:developments": "playwright test tests/e2e/empreendimentos.spec.ts",
     "test:hygiene": "playwright test tests/e2e/site-hygiene.spec.ts",

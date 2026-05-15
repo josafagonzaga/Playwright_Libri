@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test';
+import { test } from '../fixtures/pages.fixture';
 
 test.beforeEach(async ({}, testInfo) => {
   test.skip(
@@ -7,20 +7,8 @@ test.beforeEach(async ({}, testInfo) => {
   );
 });
 
-test('deve expor o acesso ao portal do cliente no menu principal', async ({ page }) => {
-  await page.goto('/');
+test('deve expor o acesso ao portal do cliente no menu principal', async ({ homePage }) => {
+  await homePage.goto();
 
-  const portalLink = page.getByRole('link', { name: /portal do cliente/i }).first();
-
-  await expect(portalLink).toBeVisible();
-  await expect(portalLink).toHaveAttribute('href', /https:\/\/portal\.libri\.com\.br\/#\/login/);
-});
-
-test('deve expor o acesso do corretor no rodape de empreendimentos', async ({ page }) => {
-  await page.goto('/empreendimentos/');
-
-  const corretorLink = page.locator('a[href="https://painel.libri.com.br/login"]').first();
-
-  await expect(corretorLink).toBeVisible();
-  await expect(corretorLink).toHaveAttribute('href', /https:\/\/painel\.libri\.com\.br\/login/);
+  await homePage.expectPortalClienteLink();
 });

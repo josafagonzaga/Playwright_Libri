@@ -7,6 +7,7 @@ Projeto de automação E2E com Playwright e TypeScript para validar fluxos e con
 ```bash
 npm test
 npm run test:access
+npm run test:broker
 npm run test:contact
 npm run test:developments
 npm run test:hygiene
@@ -26,7 +27,9 @@ npm run report
 tests/
   data/          # massas e valores esperados reutilizaveis
   e2e/           # specs Playwright
+  fixtures/      # fixtures para entregar Page Objects prontos
   helpers/       # funcoes reutilizaveis para auditorias e apoio aos testes
+  pages/         # Page Objects com acoes e validacoes por pagina
 reports/         # evidencias e relatorios gerados
 ```
 
@@ -58,7 +61,7 @@ O GitHub Actions usa duas camadas:
 
 - `Stable quality gate`: bloqueante, roda `npm run quality`, `test:home`, `test:developments` e `test:access`.
 - `Link audit report`: consultivo, roda `test:audit`, permite falha e publica os relatorios como artifact.
-- `Known site issues`: consultivo, roda `test:contact` e `test:hygiene`, permite falha e publica evidencias como artifact.
+- `Known site issues`: consultivo, roda `test:contact`, `test:broker` e `test:hygiene`, permite falha e publica evidencias como artifact.
 
 Essa divisao mantem o pipeline util para desenvolvimento sem esconder os problemas reais encontrados no site.
 

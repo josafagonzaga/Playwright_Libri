@@ -13,6 +13,7 @@ export default tseslint.config(
     ...playwright.configs['flat/recommended'],
     rules: {
       ...playwright.configs['flat/recommended'].rules,
+      'playwright/expect-expect': 'off',
       'playwright/no-conditional-in-test': 'off',
       'playwright/no-skipped-test': 'off',
     },

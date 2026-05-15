@@ -4,14 +4,15 @@ Gerado em: 2026-05-15
 
 ## Resumo
 
-| Area               | Status     | Evidencia                                           |
-| ------------------ | ---------- | --------------------------------------------------- |
-| Home               | OK         | `npm run test:home` passou em desktop e mobile      |
-| Empreendimentos    | OK         | `npm run test:developments` passou no desktop       |
-| Acessos            | OK         | `npm run test:access` passou no desktop             |
-| Higiene WordPress  | Falha real | `#wpadminbar` apareceu em `/contato/`               |
-| Contato            | Atencao    | `/contato/` apresentou HTTP 429 em execucao isolada |
-| Auditoria de links | Falha real | 136 links externos suspeitos encontrados            |
+| Area               | Status     | Evidencia                                                 |
+| ------------------ | ---------- | --------------------------------------------------------- |
+| Home               | OK         | `npm run test:home` passou em desktop e mobile            |
+| Empreendimentos    | OK         | `npm run test:developments` passou no desktop             |
+| Acessos            | OK         | `npm run test:access` passou no desktop                   |
+| Acesso corretor    | Atencao    | link do corretor pode nao aparecer em `/empreendimentos/` |
+| Higiene WordPress  | Falha real | `#wpadminbar` apareceu em `/contato/`                     |
+| Contato            | Atencao    | `/contato/` apresentou HTTP 429 em execucao isolada       |
+| Auditoria de links | Falha real | 136 links externos suspeitos encontrados                  |
 
 ## Achado 1 - Links externos suspeitos/spam
 
@@ -114,6 +115,28 @@ O site pode bloquear acessos automatizados e possivelmente usuarios reais em cer
 
 Verificar regras de WAF, cache, CDN, plugin de seguranca, limite por IP e comportamento para user agents automatizados. Apos ajuste, o esperado e que `npm run test:contact` passe de forma consistente e que o relatorio de auditoria reduza os itens `HTTP 429`.
 
+## Achado 4 - Acesso corretor instavel/ausente
+
+**Severidade:** Media
+
+**Comando para reproduzir:**
+
+```bash
+npm run test:broker
+```
+
+**Resultado atual:**
+
+Em execucao recente, a pagina `/empreendimentos/` carregou sem o link `https://painel.libri.com.br/login` no rodape.
+
+**Impacto:**
+
+Corretores podem nao encontrar o canal de acesso esperado dependendo da versao de pagina entregue por cache, cookies ou variacao de conteudo.
+
+**Recomendacao:**
+
+Garantir que o link do corretor seja renderizado de forma consistente para visitantes anonimos na pagina de empreendimentos ou definir uma area clara e estavel para esse acesso.
+
 ## Status dos testes
 
 ```bash
@@ -122,6 +145,9 @@ npm run test:developments
 
 npm run test:access
 # 2 passed no desktop
+
+npm run test:broker
+# falha quando o link do corretor nao aparece em /empreendimentos/
 
 npm run test:hygiene
 # falha quando #wpadminbar aparece para visitante em /contato/
@@ -138,5 +164,5 @@ npm run test:audit
 1. Corrigir/remover os links suspeitos no site.
 2. Corrigir a exposicao da barra administrativa do WordPress para visitantes.
 3. Revisar a origem dos HTTP 429 em paginas internas.
-4. Rodar `npm run test:audit`, `npm run test:hygiene` e `npm run test:contact` novamente.
+4. Rodar `npm run test:audit`, `npm run test:hygiene`, `npm run test:contact` e `npm run test:broker` novamente.
 5. Quando os achados reais forem corrigidos, manter esses testes no CI para bloquear regressao.

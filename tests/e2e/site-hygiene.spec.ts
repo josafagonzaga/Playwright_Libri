@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test';
+import { test } from '../fixtures/pages.fixture';
 
 test.beforeEach(async ({}, testInfo) => {
   test.skip(
@@ -7,9 +7,10 @@ test.beforeEach(async ({}, testInfo) => {
   );
 });
 
-test('nao deve exibir a barra administrativa do WordPress para visitantes', async ({ page }) => {
-  await page.goto('/contato/', { waitUntil: 'domcontentloaded' });
+test('nao deve exibir a barra administrativa do WordPress para visitantes', async ({
+  siteHygienePage,
+}) => {
+  await siteHygienePage.gotoContato();
 
-  await expect(page.locator('#wpadminbar')).toHaveCount(0);
-  await expect(page.getByRole('toolbar', { name: /Barra de ferramentas/i })).toHaveCount(0);
+  await siteHygienePage.expectWordPressAdminBarHidden();
 });
