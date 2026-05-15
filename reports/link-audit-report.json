@@ -1,0 +1,900 @@
+{
+  "generatedAt": "2026-05-15T17:01:11.111Z",
+  "baseUrl": "https://libri.com.br",
+  "maxPagesToVisit": 25,
+  "visitedPages": [
+    "https://libri.com.br",
+    "https://libri.com.br/",
+    "https://libri.com.br/sobre-nos/",
+    "https://libri.com.br/empreendimentos/",
+    "https://libri.com.br/?page_id=8420",
+    "https://libri.com.br/blog/",
+    "https://libri.com.br/contato/",
+    "https://libri.com.br/libri-one/",
+    "https://libri.com.br/blog/transforme-seu-home-office-com-funcionalidade-e-estilo/",
+    "https://libri.com.br/blog/o-valor-dos-detalhes/",
+    "https://libri.com.br/blog/tecnologia-redefinindo-o-conceito-de-morar-bem/",
+    "https://libri.com.br/elisiosresidence/",
+    "https://libri.com.br/versa-loft-style/",
+    "https://libri.com.br/hype-easy-studios/",
+    "https://libri.com.br/livri-freedom-living/",
+    "https://libri.com.br/blog/one-selo-azul/"
+  ],
+  "checkedLinks": 155,
+  "brokenLinks": [],
+  "rateLimitedLinks": [
+    {
+      "source": "https://libri.com.br",
+      "url": "https://libri.com.br/sobre-nos/",
+      "text": "Sobre nós",
+      "problem": "HTTP 429"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://libri.com.br/empreendimentos/",
+      "text": "Empreendimentos",
+      "problem": "HTTP 429"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://libri.com.br/?page_id=8420",
+      "text": "Housi",
+      "problem": "HTTP 429"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://libri.com.br/blog/",
+      "text": "Blog",
+      "problem": "HTTP 429"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://libri.com.br/contato/",
+      "text": "Contato",
+      "problem": "HTTP 429"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://libri.com.br/libri-one/",
+      "text": "(sem texto)",
+      "problem": "HTTP 429"
+    },
+    {
+      "source": "https://libri.com.br/empreendimentos/",
+      "url": "https://libri.com.br/elisiosresidence/",
+      "text": "(sem texto)",
+      "problem": "HTTP 429"
+    },
+    {
+      "source": "https://libri.com.br/empreendimentos/",
+      "url": "https://libri.com.br/versa-loft-style/",
+      "text": "(sem texto)",
+      "problem": "HTTP 429"
+    },
+    {
+      "source": "https://libri.com.br/libri-one/",
+      "url": "https://libri.com.br/blog/one-selo-azul/",
+      "text": "SAIBA MAIS SOBRE O SELO CASA AZUL + CAIXA",
+      "problem": "HTTP 429"
+    }
+  ],
+  "suspiciousLinks": [
+    {
+      "source": "https://libri.com.br",
+      "url": "https://24designshop.co.uk/shop/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://ristorantezoello.it/menu/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://softronixs.com/contact/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://starazona.com/contacto/",
+      "text": "https://starazona.com/contacto/",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://onee.org.br/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://www.dovhlevin.com/",
+      "text": "https://www.dovhlevin.com/",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://stitta.ac.id/kontak/",
+      "text": "https://stitta.ac.id/kontak/",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://freezonemarket.ae/banks/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://abradee.org.br/associadas/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://www.globalmarketingbusiness.com/",
+      "text": "SLOT ZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://www.mainzeusnet.com/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://www.tajmahalfoxtrot.com/teddy-weatherford/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://www.tripp.in/about/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://coavs.edu.pk/faculty/",
+      "text": "https://coavs.edu.pk/faculty/",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://sites.google.com/view/d4rl",
+      "text": "SLOT PULSA",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://energiasemprecomvoce.com.br/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://67telecom.com.br/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://www.xianghair.com.au/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://thenaturalplants.com/products/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://alumni.sethu.ac.in/events/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://dev.atlantida.edu.ar/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://williamsflorist.com.au/loveitreviewit/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://kissmetricshq.com/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://nexifystudio.com/packages/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://coes.dypgroup.edu.in/iic/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://digitaurus.tech/projects",
+      "text": "ULARWIN",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://afocelca.com/services/",
+      "text": "ULARWIN",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://afocelca.com/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://quickmetrics.com/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://www.stolzmotors.com/contact-us/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://main-zeus.co.id/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://www.mdb.org.br/estatuto/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://coes.dypgroup.edu.in/library/",
+      "text": "https://coes.dypgroup.edu.in/library/",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://minhcameo.com/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://dericklewin.com/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://tarheelfoodie.org/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://mynextbigidea.com/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://www.sparkdrupal.com/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://suoimocafe.com/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://sethu.ac.in/seminar/",
+      "text": "https://sethu.ac.in/seminar/",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://digitaurus.tech/contact/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://sawuti.org/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://naplesrailing.com/glass-balustrades/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://zoomoptical.sa/branches/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://joker4d.co.id/",
+      "text": "JOKER4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://www.sangath.org/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://leaf-india.org/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://www.cvmu.edu.in/contact",
+      "text": "WEDE303",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://tripolystudio.com/",
+      "text": "MAINZEUS",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://kinman.com/faq.php",
+      "text": "BINTANG4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://wede303.org/",
+      "text": "WEDE303",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://www.nicholeelizabethdemere.com/",
+      "text": "LIVETOTOEBT",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://top111.id/",
+      "text": "top111",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://ghe.co.in/expeditions/",
+      "text": "LIVETOTOBET",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://brainspotting.com.br/sobre",
+      "text": "LIVETOTOBET",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://ibcu.cu.edu.eg/Ebook/",
+      "text": "LIVETOTOBET",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://drsaggu.com/gallery/",
+      "text": "WEDE303",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://naplesrailing.com/hotel-railing/",
+      "text": "WEDE303",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://superwoman.ayanawebzine.com/accueil/",
+      "text": "WEDE303",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://licomat.com/sustainable/",
+      "text": "WEDE303",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://zoomoptical.sa/wishlist/",
+      "text": "WEDE303",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://coes.dypgroup.edu.in/exam/",
+      "text": "LIVETOTOBET",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://abogadosrudilla.com/que-hacemos",
+      "text": "LIVETOTOBET",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://24designshop.co.uk/faqs/",
+      "text": "LIVETOTOBET",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://digitaurus.tech/services/",
+      "text": "LIVETOTOBET",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://planika.com.ua/ru/montazh-biokamina-vse-tonkosti/",
+      "text": "LIVETOTOBET",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://howtofindmyip.com/",
+      "text": "BINTANG4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://www.mdb.org.br/diretorios-mdb/",
+      "text": "BINTANG4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://dymmedicalclinic.id/map/",
+      "text": "BINTANG4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://abogadosrudilla.com/contaco",
+      "text": "BINTANG4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://24designshop.co.uk/contact/",
+      "text": "BINTANG4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://revistasoberana.com.br/revista-soberana/",
+      "text": "BINTANG4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://coes.dypgroup.edu.in/prospectus/",
+      "text": "BINTANG4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://revistasoberana.com.br/contato/",
+      "text": "BINTANG4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://bintang4d.id/",
+      "text": "BINTANG4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://askmrowl.com/",
+      "text": "BINTANG4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://drsaggu.com/blogs/",
+      "text": "BINTANG4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://naplesrailing.com/iron-railing/",
+      "text": "BINTANG4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://licomat.com/media/",
+      "text": "BINTANG4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://zoomoptical.sa/shop/",
+      "text": "BINTANG4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://www.epoxyflooringtulsa.com/",
+      "text": "BINTANG4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://voyagerelectricvehicles.com/shop/",
+      "text": "BINTANG4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://buffl.nl/offerte/",
+      "text": "BINTANG4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://bintangmimpi.com/",
+      "text": "BINTANG4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://online.snsrkscollege.ac.in/",
+      "text": "BINTANG4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://www.llyn.info/",
+      "text": "BINTANG4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://localfoodmonadnock.org/",
+      "text": "SLOT2D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://pharmmedprom.ru/category/roznicza/",
+      "text": "SLOT2D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://www.macrmi.info/",
+      "text": "SLOT2D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://www.tajmahalfoxtrot.com/rangoon-rhapsody/",
+      "text": "JOKER4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://sethu.ac.in/chairman/",
+      "text": "JOKER4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://www.dypatilmedicalkop.org/contact/",
+      "text": "JOKER4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://www.saintvincentdepaul-church.org/lent/",
+      "text": "JOKER4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://myfirstdigital-jaya.pages.dev/",
+      "text": "JOKER4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://www.mdb.org.br/mdb-retro/",
+      "text": "JOKER4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://pharmmedprom.ru/razdel/med/",
+      "text": "JOKER4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://alumni.sethu.ac.in/gallery/",
+      "text": "JOKER4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://chairman-jaya.pages.dev/",
+      "text": "JOKER4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://www.j-rocks.co.id/",
+      "text": "JOKER4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://naplesrailing.com/blog/",
+      "text": "JOKER4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://drsaggu.com/faq/",
+      "text": "JOKER4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://licomat.com/about/",
+      "text": "JOKER4D",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://www.snsrkscollege.ac.in/",
+      "text": "https://www.snsrkscollege.ac.in/",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://www.leiko.cz/",
+      "text": "https://www.leiko.cz/",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://curever.com/?id=JOKER4D",
+      "text": "bokep sma",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://caodontologia.com.br/?id=JOKER4D",
+      "text": "bokep sma",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://smart-meetings.fr/joker4d-tech/",
+      "text": "bokep sma",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://thisisbenaa.com/?id=JOKER4D",
+      "text": "bokep sma",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://stolarz4u.pl/bintang4d/",
+      "text": "bokep sma",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://www.petkadai.com/media/product/index.php?id_ID=joker4d",
+      "text": "bokep sma",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://fachmike.pl/joker4d/",
+      "text": "bokep sma",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://lestendancesdaurel.fr/bintang4d-group/",
+      "text": "bokep sma",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://sarahnoah-architecte.fr/bintang4d/",
+      "text": "bokep sma",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://micenaconciergerie.fr/bintang4d-group/",
+      "text": "bokep sma",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://www.pa-solok.go.id/APA-ITU-TRIK-MAIN-ZEUS-PRAGMATIC-COM",
+      "text": "bokep sma",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://www.pa-solok.go.id/APA-ITU-POLA-MAIN-ZEUS-OLYMPUS-INDONESIA",
+      "text": "bokep sma",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://pawsitivepackleader.ca/collections/zahid-ra/",
+      "text": "bokep sma",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://globaltechc.com.br/?id=JOKER4D",
+      "text": "bokep sma",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://globaltechc.com.br/?id=SKMBET",
+      "text": "bokep sma",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://adarce.fr/livetotobet-best/",
+      "text": "bokep sma",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://recruitment.dpi.co.id/?news_id=joker4d",
+      "text": "bokep sma",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://ligueoccitanierollerskate.fr/livetotobet-best/",
+      "text": "bokep sma",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://rdb.rw/e-services/",
+      "text": "bokep sma",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://livetotobet.pages.dev/",
+      "text": "bokep sma",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://gardpetanque.fr/ashwagandha-last-longer-in-bed/il-en/",
+      "text": "bokep sma",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://www.denholmmeetrestaurant.co.uk/reservation/",
+      "text": "bokep sma",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://pgpkeckintamani.org/",
+      "text": "bokep sma",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://whiteskull.pl/livetotobet-live-chat/",
+      "text": "bokep sma",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://termikainstalacje.pl/livetotobet-life/",
+      "text": "bokep sma",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://cienojetes.com/",
+      "text": "bokep sma",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://advocatesofkerala.com/Directory/AdvocateProfile/3197",
+      "text": "bokep sma",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://ruckusjournal.org/",
+      "text": "bokep sma",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://sport.toto.nl/live",
+      "text": "bokep sma",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://lesrefugiesdugroscaillou.fr/www-cinta-bintang4d-info/",
+      "text": "bokep sma",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://rakkendo.com/?id=bintang4d",
+      "text": "bokep sma",
+      "problem": "link externo com texto suspeito"
+    },
+    {
+      "source": "https://libri.com.br",
+      "url": "https://fasthandymanservices.com/services/electrical-services/",
+      "text": "bokep sma",
+      "problem": "link externo com texto suspeito"
+    }
+  ],
+  "unexpectedExternalLinks": []
+}

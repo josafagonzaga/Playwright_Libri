@@ -1,0 +1,33 @@
+{
+  "name": "playwright_libri",
+  "version": "1.0.0",
+  "description": "Projeto de automação E2E com Playwright e TypeScript para validar fluxos e conteúdos do site da Libri Incorporadora, cobrindo   navegação institucional, empreendimentos, formulário de contato, portal do cliente, responsividade e qualidade com CI/CD.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ci": "playwright test",
+    "test:access": "playwright test tests/e2e/acessos.spec.ts",
+    "test:contact": "playwright test tests/e2e/contato.spec.ts",
+    "test:developments": "playwright test tests/e2e/empreendimentos.spec.ts",
+    "test:hygiene": "playwright test tests/e2e/site-hygiene.spec.ts",
+    "test:home": "playwright test tests/e2e/home.spec.ts",
+    "test:links": "playwright test tests/e2e/link-check.spec.ts",
+    "test:audit": "playwright test tests/e2e/link-check.spec.ts",
+    "report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josafagonzaga/Playwright_Libri.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josafagonzaga/Playwright_Libri/issues"
+  },
+  "homepage": "https://github.com/josafagonzaga/Playwright_Libri#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.8.0"
+  }
+}
