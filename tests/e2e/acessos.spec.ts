@@ -1,7 +1,10 @@
 import { expect, test } from '@playwright/test';
 
 test.beforeEach(async ({}, testInfo) => {
-  test.skip(testInfo.project.name !== 'desktop-chrome', 'Acessos principais validados no desktop para evitar variacao do menu mobile.');
+  test.skip(
+    testInfo.project.name !== 'desktop-chrome',
+    'Acessos principais validados no desktop para evitar variacao do menu mobile.',
+  );
 });
 
 test('deve expor o acesso ao portal do cliente no menu principal', async ({ page }) => {

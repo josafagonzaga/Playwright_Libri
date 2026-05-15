@@ -1,7 +1,7 @@
 {
   "name": "playwright_libri",
   "version": "1.0.0",
-  "description": "Projeto de automação E2E com Playwright e TypeScript para validar fluxos e conteúdos do site da Libri Incorporadora, cobrindo   navegação institucional, empreendimentos, formulário de contato, portal do cliente, responsividade e qualidade com CI/CD.",
+  "description": "Projeto de automacao E2E com Playwright e TypeScript para validar fluxos, conteudos, auditoria de links e qualidade do site da Libri Incorporadora.",
   "main": "index.js",
   "scripts": {
     "test": "playwright test",
@@ -13,7 +13,14 @@
     "test:home": "playwright test tests/e2e/home.spec.ts",
     "test:links": "playwright test tests/e2e/link-check.spec.ts",
     "test:audit": "playwright test tests/e2e/link-check.spec.ts",
-    "report": "playwright show-report"
+    "report": "playwright show-report",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check",
+    "quality": "npm run format:check && npm run lint && npm run typecheck"
   },
   "repository": {
     "type": "git",
@@ -27,7 +34,13 @@
   },
   "homepage": "https://github.com/josafagonzaga/Playwright_Libri#readme",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@playwright/test": "^1.60.0",
-    "@types/node": "^25.8.0"
+    "@types/node": "^25.8.0",
+    "eslint": "^10.4.0",
+    "eslint-plugin-playwright": "^2.10.2",
+    "prettier": "^3.8.3",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.59.3"
   }
 }

@@ -13,18 +13,54 @@ npm run test:hygiene
 npm run test:home
 npm run test:links
 npm run test:audit
+npm run typecheck
+npm run lint
+npm run format:check
+npm run quality
 npm run report
+```
+
+## Estrutura
+
+```text
+tests/
+  data/          # massas e valores esperados reutilizaveis
+  e2e/           # specs Playwright
+  helpers/       # funcoes reutilizaveis para auditorias e apoio aos testes
+reports/         # evidencias e relatorios gerados
+```
+
+## Cenarios cobertos
+
+- Home em desktop e mobile.
+- Listagem e links dos empreendimentos.
+- Pagina de contato e canais de atendimento.
+- Acesso ao portal do cliente e acesso corretor.
+- Higiene basica do WordPress para visitantes.
+- Auditoria de links internos, externos permitidos, rate limit e links suspeitos.
+
+## Qualidade local
+
+O projeto usa TypeScript, ESLint e Prettier.
+
+```bash
+npm run typecheck
+npm run lint
+npm run format:check
+npm run quality
 ```
 
 ## Qualidade e CI/CD
 
 O projeto executa os testes em desktop e mobile Chrome. Em falhas, o Playwright mantém screenshot, vídeo e trace para investigação.
 
-No GitHub Actions, o workflow `Playwright Quality` roda em `push`, `pull_request` e execução manual. Ele instala as dependências, instala o Chromium do Playwright, executa `npm run test:ci` e publica artifacts com:
+O GitHub Actions usa duas camadas:
 
-- relatório HTML do Playwright;
-- resultados JUnit;
-- relatórios de auditoria em `reports/`.
+- `Stable quality gate`: bloqueante, roda `npm run quality`, `test:home`, `test:developments` e `test:access`.
+- `Link audit report`: consultivo, roda `test:audit`, permite falha e publica os relatorios como artifact.
+- `Known site issues`: consultivo, roda `test:contact` e `test:hygiene`, permite falha e publica evidencias como artifact.
+
+Essa divisao mantem o pipeline util para desenvolvimento sem esconder os problemas reais encontrados no site.
 
 ## Auditoria de links
 

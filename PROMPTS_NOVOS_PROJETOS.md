@@ -260,7 +260,9 @@ export class HomePage {
 
   async expectLoaded() {
     await expect(this.page).toHaveTitle(/UI Test Automation Playground/);
-    await expect(this.page.getByRole('heading', { name: 'UI Test Automation Playground' })).toBeVisible();
+    await expect(
+      this.page.getByRole('heading', { name: 'UI Test Automation Playground' }),
+    ).toBeVisible();
   }
 }
 ```
